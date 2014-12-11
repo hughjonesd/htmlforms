@@ -1,0 +1,43 @@
+Design
+======
+
+* elements are from htmltool tags, with some extra info:
+  - checks
+  - defaults
+  
+* form is also from htmltools
+  - check by default checks each element; this is replaceable though
+  - standard_check(form, list_of_values)
+  - fill fills in with values (defaults or specified e.g. params)
+  -
+  - set_default sets the default values
+  - check_then_fill?
+
+
+* Elements contain info on HTML; defaults; titles; associated processors
+  * set_value()
+  * print with default and error information?
+  * javascript options?
+
+Elements
+--------
+checkbox
+select
+radio
+text
+number? 
+button
+submit
+file
+
+* Checkers 
+  * message customizable
+  * easy way to state rels of implication
+  * easy to write new ones including ones which relate different elements
+  * easy way to AND checkers together
+  * and to generate javascript if possible! or HTML 5 if this has constraints
+  
+
+
+  
+
